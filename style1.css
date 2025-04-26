@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color:azure
+}
+h1{
+    color:aqua
+}
+
+a{
+    color:darkgray
+    text-decoration: none;
+
+}
+
+a:hover{
+    color:mediumblue
+
+}
+
+ul > li{
+    font-weight: bold;
+}
+
+h1 + p{
+    background-color:black;
+    front-size: 22px;
+}
