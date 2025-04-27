@@ -25,4 +25,26 @@ ul > li{
 h1 + p{
     background-color:black;
     front-size: 22px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul > li:first-child{
+    color: crimson
+}
+
+ul > li:last-child{
+    color: chocolate
+}
+
+ul > li:nth-child(3){
+    color: chocolate
+}
+
+ul > li::before{
+    content: "🚀"
 }
