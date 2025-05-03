@@ -1,0 +1,28 @@
+img{
+    height: 70px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+h1{
+    text-align: center;
+    background-color:chocolate;
+    padding:20px;
+    position: sticky;
+    top: 0;
+    border-radius:20px;
+}
+
+h2{
+    font-size:30px;
+    text-align: center;
+    background-color:chocolate;
+    padding:20px;
+    position:sticky;
+    top: 0;
+    border-radius: 20px;
+
+}
+
