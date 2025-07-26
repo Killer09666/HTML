@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        p {
-            font-size: 25px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data types</title>
 </head>
 <body>
-    <p>Number 1: <span id="n1"></span></p>
-    <p>Number 2: <span id="n2"></span></p>
-    <p>Addition: <span id="add"></span></p>
-    <p>Subtraction: <span id="minus"></span></p>
-    <p>Multiplication: <span id="multiply"></span></p>
-    <p>Division: <span id="divide"></span></p>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var a = 56;
-        var b = 29;
-
-        document.getElementById('n1').innerHTML = a;
-        document.getElementById('n2').innerHTML = b;
-
-        document.getElementById('add').innerHTML = a + b;
-        document.getElementById('minus').innerHTML = a - b;
-        document.getElementById('multiply').innerHTML = a * b;
-        document.getElementById('divide').innerHTML = a / b;
-    });
-</script>
-
-   
+    <h1>JavaScript Data types</h1>
+    <script>
+        var a = 8;
+        var b = 10;
+        var d = null;
+        var e;
+        {
+            let a = 2;
+            const b = 8;
+        }
+        document.write("a and b are equal : " + (a==b));
+        document.write("<br>");
+        document.write("The value of d is :" + d);
+        document.write("<br>");
+        document.write("The value of e is : " + e);
+        document.write("<br>");
+        document.write("The value of a is: " +a);
+        document.write("<br>");
+        document.write("The value of b is: " +b);
+    </script>
+    
 </body>
 </html>
