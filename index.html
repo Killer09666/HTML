@@ -3,29 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data types</title>
+    <title>Palindrome App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>JavaScript Data types</h1>
-    <script>
-        var a = 8;
-        var b = 10;
-        var d = null;
-        var e;
-        {
-            let a = 2;
-            const b = 8;
-        }
-        document.write("a and b are equal : " + (a==b));
-        document.write("<br>");
-        document.write("The value of d is :" + d);
-        document.write("<br>");
-        document.write("The value of e is : " + e);
-        document.write("<br>");
-        document.write("The value of a is: " +a);
-        document.write("<br>");
-        document.write("The value of b is: " +b);
-    </script>
-    
+    <div class="container">
+        <h1>Palidrome Checker</h1>
+             <input type="text" id="textInput" placeholder="Enter a word or phrase:" required>
+             <button onclick="checkPalindrome()">Check</button>
+             <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
